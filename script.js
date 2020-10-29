@@ -81,10 +81,10 @@ function addCharDetails(chars, name) {
       document.querySelector(".person-name").innerHTML = element.name;
 
       document.querySelector(".person-one").innerHTML =
-        "Height: " + "&nbsp" + element.height;
+        "Height: " + "&nbsp" + element.height + "cm";
 
       document.querySelector(".person-two").innerHTML =
-        "Mass: " + "&nbsp" + element.mass;
+        "Mass: " + "&nbsp" + element.mass + "kg";
 
       document.querySelector(".person-three").innerHTML =
         "Hair color: " + "&nbsp" + element.hair_color;
