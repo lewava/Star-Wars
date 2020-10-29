@@ -1,60 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Star Wars</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Star Wars Catalog</h1>
+      <h1>Star Wars Catalog</h1>
     </header>
     <main>
-        <section class="box-container">
+      <section class="box-container">
+        <h3 class="header">Characters</h3>
+        <section class="inner-container">
+          <ul class="char-ul"></ul>
+          <p class="char-footer">
+            <span class="char-arrow left">◁&nbsp;</span
+            ><span class="counter">1</span> / 9<span class="char-arrow right"
+              >&nbsp;▷</span
+            >
+          </p>
+        </section>
+      </section>
 
-            <h3 class="header">Characters</h3>
-            <ul class="char-ul"></ul>
-            <p class="char-footer"><span class="char-arrow left">◁&nbsp;</span>1 / 8<span class="char-arrow right">&nbsp;▷</span></p>
+      <section class="box-container details-container">
+        <h3 class="header details-header">Details</h3>
 
+        <section class="person-container">
+          <h3 class="person-name">Name</h3>
+          <ul class="person-details">
+            <li class="person-one details-li">Height:</li>
+            <li class="person-two details-li">Mass:</li>
+            <li class="person-three details-li">Hair color:</li>
+            <li class="person-four details-li">Eye color:</li>
+            <li class="person-five details-li">Birth year:</li>
+            <li class="person-six details-li">Gender:</li>
+          </ul>
         </section>
 
-        <section class="box-container">
-
-            <h3 class="header details-header">Details</h3>
-
-            <section class="person-container">
-                <h3 class="person-name">Luke skywalker</h3>
-                <ul class="person-ul">
-                    <li class="person-li">test</li>
-                    <li class="person-li">test</li>
-                    <li class="person-li">test</li>
-                    <li class="person-li">test</li>
-                    <li class="person-li">test</li>
-                    <li class="person-li">test</li>
-                    <li class="person-li">test</li>
-                </ul>
-            </section>
-
-            <section class="planet-container">
-                <h3 class="planet-name">Tattoiin</h3>
-                <ul class="planet-ul">
-                    <li class="planet-li">test</li>
-                    <li class="planet-li">test</li>
-                    <li class="planet-li">test</li>
-                    <li class="planet-li">test</li>
-                    <li class="planet-li">test</li>
-                    <li class="planet-li">test</li>
-                </ul>
-            </section>
-
+        <section class="planet-container">
+          <h3 class="planet-name">Name</h3>
+          <ul class="planet-ul">
+            <li class="planet-one details-li">Rotation period:</li>
+            <li class="planet-two details-li">Orbital period:</li>
+            <li class="planet-three details-li">Diameter:</li>
+            <li class="planet-four details-li">Climate:</li>
+            <li class="planet-five details-li">Gravity:</li>
+            <li class="planet-six details-li">Terrain:</li>
+          </ul>
         </section>
+      </section>
     </main>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
