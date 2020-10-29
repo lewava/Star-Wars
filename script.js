@@ -38,12 +38,7 @@ function changeCurrentPage() {
   });
 
   right.addEventListener("click", () => {
-    if (currentPage === 8) {
-      document.querySelector(".inner-container").style.justifyContent =
-        "space-between";
-      currentPage += 1;
-      counter.textContent = currentPage;
-    } else if (currentPage === 9) {
+    if (currentPage === 9) {
       currentPage = 9;
     } else {
       currentPage += 1;
